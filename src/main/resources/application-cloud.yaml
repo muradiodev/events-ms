@@ -1,0 +1,18 @@
+spring:
+  cloud:
+    loadbalancer:
+      enabled: true
+
+ribbon:
+  eureka:
+    enabled: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://173.212.221.237:38761/eureka/
+    instances:
+      preferIpAddress: true
+    register-with-eureka: true
+
+

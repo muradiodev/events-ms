@@ -1,0 +1,13 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: events-ms
+
+  profiles:
+    include:
+      - db
+      - cloud
+      - logger
+      - kafka
